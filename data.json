@@ -1,4 +1,5 @@
 {
+	"version" : 1,
 	"chase_fog_density" : 0.25,
 	"normal_fog_density" : 0.005,
 	"chase_fog_color" : {
