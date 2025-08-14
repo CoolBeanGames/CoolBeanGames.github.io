@@ -1,0 +1,79 @@
+{
+	"chase_fog_density" : 0.25,
+	"normal_fog_density" : 0.005,
+	"chase_fog_color" : {
+		"r" : 0,
+		"g" : 0,
+		"b" :0,
+		"a" :1
+	},
+	"normal_fog_color" : {
+		"r" : 1,
+		"g" : 1,
+		"b" : 1,
+		"a" : 1
+	},
+	"flash_light_chase_intensity" : 1,
+	"flash_light_normal_intensity" : 0,
+	"flash_light_color" : {
+		"r" : 0.9,
+		"g" : 0.9,
+		"b" : 0,
+		"a" : 1
+	},
+	"flash_light_range" : 10,
+	"show_debug": true,
+	"stamina_fill_speed" : 0.2,
+	"stamina_drain_speed" : 0.1,
+	"score": 0,
+	"fails": 0,
+	"mistakes": 0,
+	"successes": 0,
+	"chases": 0,
+	"escapes": 0,
+	"required_score": 8,
+	"difficulty": 0,
+	"enable_computer_lights": false,
+	"skip_intro": true,
+	"skip_title": false,
+	"enable_notes" : true,
+	"skip_first_terminal": true,
+	"force_settings_reset": false,
+	"force_save_reset": false,
+	"spawn_terminals": true,
+	"enable_ai": true,
+	"enable_time_tracking": true,
+	"enable_game_over": true, 
+	"enable_bernard": true,
+	"enable_gus": true,
+	"locked_doors": true,
+	"freeze_time" : 5,
+	
+	"character_data":
+	{
+		"walk_speed" : 4,
+		"run_speed" : 8,
+		"view_distance" : 30,
+		"can_aggro": true,
+		"show_nav_path": false,
+		"sight" : {
+			"player_locator_range" : 20,
+			"sight_range" : 30,
+			"view_range" : 90.0,
+			"lose_player_cooldown" :  5,
+			"view_step_x" :  5,
+			"view_step_y" :  5,
+			"cycles_per_frame" :  3,
+			"aquisition_speed" : 0.0005
+		}
+	},
+	"items" : 
+	{
+		"spawn_items": true,
+		"enable_trash": true,
+		"enable_hall_pass": true,
+		"enable_candy_bar": true,
+		"enable_test_answers": true,
+		"enable_magic_marker" : true
+	}
+}
