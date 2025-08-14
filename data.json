@@ -3,7 +3,7 @@
 	"chase_fog_density" : 0.25,
 	"normal_fog_density" : 0.005,
 	"chase_fog_color" : {
-		"r" : 0,
+		"r" : 0.35,
 		"g" : 0,
 		"b" :0,
 		"a" :1
