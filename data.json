@@ -1,5 +1,5 @@
 {
-	"version" : 4,
+	"version" : 5,
 	"chase_fog_density" : 0.25,
 	"normal_fog_density" : 0.005,
 	"chase_fog_color" : {
@@ -45,8 +45,8 @@
 	"enable_ai": true,
 	"enable_time_tracking": true,
 	"enable_game_over": true, 
-	"enable_bernard": true,
-	"enable_gus": false,
+	"enable_bernard": false,
+	"enable_gus": true,
 	"locked_doors": true,
 	"freeze_time" : 5,
 	
